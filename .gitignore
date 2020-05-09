@@ -1,3 +1,6 @@
+# secrets
+electron-builder.yml
+
 # Logs
 logs
 *.log
