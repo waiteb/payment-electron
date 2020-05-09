@@ -1,0 +1,29 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/waiteb/payment-electron/issues"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0"
+  },
+  "homepage": "https://github.com/waiteb/payment-electron#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "payment-electron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waiteb/payment-electron.git"
+  },
+  "scripts": {
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
